@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reckless.Client", "Reckless.Client\Reckless.Client.csproj", "{001649C8-DA19-4D8B-933A-199DF20F3E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reckless.Sdk", "Reckless.Sdk\Reckless.Sdk.csproj", "{E4F69EE3-C5A7-4163-A89E-B4D7B0E4680D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{001649C8-DA19-4D8B-933A-199DF20F3E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001649C8-DA19-4D8B-933A-199DF20F3E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001649C8-DA19-4D8B-933A-199DF20F3E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001649C8-DA19-4D8B-933A-199DF20F3E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F69EE3-C5A7-4163-A89E-B4D7B0E4680D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F69EE3-C5A7-4163-A89E-B4D7B0E4680D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F69EE3-C5A7-4163-A89E-B4D7B0E4680D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F69EE3-C5A7-4163-A89E-B4D7B0E4680D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC1E62FE-192A-4712-A10D-443DC918B9D2}
+	EndGlobalSection
+EndGlobal
