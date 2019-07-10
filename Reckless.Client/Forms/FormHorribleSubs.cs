@@ -23,6 +23,9 @@ namespace Reckless.Client.Forms
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
+            this.GridResults.ClearSelection();
+            this.GridResults.Rows.Clear();
+
             string uri = String.Format("http://xdcc.horriblesubs.info/search.php?t={0}", Uri.EscapeUriString(this.TextSearch.Text));
             string javascript = this.Get(uri);
 
