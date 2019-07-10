@@ -26,6 +26,10 @@ namespace Reckless.Client.Forms
             settings.DownloadDirectory = this.TextDownloadDirectory.Text;
 
             Reckless.Sdk.Context.DownloadDirectory = this.TextDownloadDirectory.Text;
+
+            settings.Save();
+
+            MessageBox.Show("Your settings have been saved!");
         }
 
         private void FormSettings_Load(object sender, EventArgs e)
